@@ -1,13 +1,7 @@
-import random
+grilaAlive = True
+playerAlive = True
 
-for count in range (4) :
-    randomDice = random.randrange (1,20)
-print(randomDice)
-if randomDice==(20):
-    print ('critical hit')
-if randomDice==(1):
-    print('critical failure')
-print ("action one: open the door or action two: flee")
+
 import os.path
 path='Opening Scenario.txt'
 checkfile = os.path.isfile(path)
